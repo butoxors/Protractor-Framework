@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "strict": true,
+    "outDir" : "output_js",
+    "types" : ["node", "jasmine"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

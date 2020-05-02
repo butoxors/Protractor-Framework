@@ -1,0 +1,24 @@
+{
+  "name": "Protractor-Framework",
+  "version": "1.0.0",
+  "description": "There is a test automation framework via protractor/TS",
+  "author": "Ivan Khoroshevskiy <butoxors@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean-build": "npm run clean && npm run build",
+    "test": "protractor config/config.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
+  },
+  "dependencies": {
+    "@types/node": "^10.7.1",
+    "@types/jasmine": "^3.3.12",
+    "@types/selenium-webdriver": "^3.0.10",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "protractor": "^5.4.0",
+    "typescript": "^3.4.1"
+  },
+  "repository": "https://github.com/butoxors/Protractor-Framework"
+}
