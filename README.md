@@ -15,8 +15,6 @@
 ## SetUp:
 
 Checkout to **develop** branch and meke remote a pull
-> git checkout origin develop
-
 > git pull origin develop
 
 Configure file **"src/resources.configuration.json"**:
