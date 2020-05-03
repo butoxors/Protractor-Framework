@@ -1,0 +1,7 @@
+{
+    "url": "",
+    "browserName": "chrome",
+    "implicitTimeout": 10,
+    "email": "",
+    "password": ""
+}

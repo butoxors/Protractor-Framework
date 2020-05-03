@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
     "lib": ["es6"],
+    "target": "ES6",
     "strict": true,
-    "outDir" : "output_js",
-    "types" : ["node", "jasmine"]
+	"outDir" : "output_js",
+	"module": "commonjs",
+	"types" : ["node", "jasmine"],
+	"resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules"

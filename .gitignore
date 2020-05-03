@@ -1,6 +1,7 @@
 node_modules/
 TypeScript/
 reports/
+target/
 *.js
 .vscode
 .DS_Store

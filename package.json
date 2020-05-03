@@ -7,18 +7,24 @@
   "scripts": {
     "build": "tsc",
     "clean-build": "npm run clean && npm run build",
-    "test": "protractor config/config.js",
+    "test": "protractor output_js/conf/config.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start"
   },
   "dependencies": {
-    "@types/node": "^10.7.1",
+    "@types/chai": "^4.1.2",
     "@types/jasmine": "^3.3.12",
+    "@types/node": "^10.7.1",
     "@types/selenium-webdriver": "^3.0.10",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
+    "log4js": "^6.2.1",
+    "npm": "^6.14.4",
+    "npm-reinstall": "^3.1.0",
     "protractor": "^5.4.0",
+    "reinstall": "^2.0.0",
     "typescript": "^3.4.1"
   },
-  "repository": "https://github.com/butoxors/Protractor-Framework"
+  "repository": "https://github.com/butoxors/Protractor-Framework",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
 }
