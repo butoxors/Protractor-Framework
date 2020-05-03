@@ -1,4 +1,4 @@
-# Protractor framework for e2e tests on TypeScript and Jasmine runner
+# UI E2E framework on Protractor, TypeScript and Jasmine runner
 
 ## Current project has a simple structure:
 - src
