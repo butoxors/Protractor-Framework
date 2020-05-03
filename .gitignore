@@ -3,7 +3,8 @@ TypeScript/
 reports/
 target/
 *.js
-src/resources/configuration.json
+configuration.json
 .vscode
 .DS_Store
 package-lock.json
+output_js/

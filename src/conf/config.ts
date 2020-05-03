@@ -1,13 +1,6 @@
 import {browser, Config} from "protractor";
 import conf from "../resources/configuration.json"
 
-var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
-
-var reporter = new HtmlScreenshotReporter({
-  dest: 'target/screenshots',
-  filename: 'my-report.html',
-});
-
 export const config: Config = {
   seleniumAddress: "http://127.0.0.1:4444/wd/hub",
   SELENIUM_PROMISE_MANAGER: false,
