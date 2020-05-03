@@ -27,6 +27,6 @@ Run commands from terminal (**in project location**):
 
 > **npm tsc** - *convert Typescript code to JavaScript automatically*
 
-> **webdriver-manager start** - *start remote Selenium browser*
+> **webdriver-manager start** - *start remote Selenium browser* (You should to invoke this command from another terminal)
 
 > **npm test** - *run specs*
