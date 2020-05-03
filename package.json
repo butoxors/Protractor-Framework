@@ -7,9 +7,7 @@
   "scripts": {
     "build": "tsc",
     "clean-build": "npm run clean && npm run build",
-    "test": "protractor output_js/conf/config.js",
-    "webdriver-update": "webdriver-manager update",
-    "webdriver-start": "webdriver-manager start"
+    "test": "protractor output_js/conf/config.js"
   },
   "dependencies": {
     "@types/chai": "^4.1.2",
